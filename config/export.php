@@ -24,7 +24,7 @@ return [
      * By default your `public` folder's contents will be added to the export.
      */
     'include_files' => [
-        'public' => 'evento',
+        'public' => '',
     ],
 
     /*
