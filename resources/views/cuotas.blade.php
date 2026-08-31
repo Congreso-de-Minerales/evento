@@ -44,10 +44,10 @@
 
                     <h3 class="font-bold text-lg mb-4 text-center sm:text-left border-t pt-6 border-gray-200">Selecciona tu cuota para registrarte:</h3>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <a href="#" class="px-4 py-3 bg-orange-600 hover:bg-orange-500 text-white rounded-xl font-bold transition-transform duration-300 hover:scale-105 text-center shadow-lg shadow-orange-500/20">Registro Alumnos</a>
-                        <a href="#" class="px-4 py-3 bg-orange-600 hover:bg-orange-500 text-white rounded-xl font-bold transition-transform duration-300 hover:scale-105 text-center shadow-lg shadow-orange-500/20">Registro Alumnos Socios</a>
-                        <a href="#" class="px-4 py-3 bg-[#111] hover:bg-black text-white rounded-xl font-bold transition-transform duration-300 hover:scale-105 text-center shadow-lg">Registro Socios AIMMGM</a>
-                        <a href="#" class="px-4 py-3 bg-[#111] hover:bg-black text-white rounded-xl font-bold transition-transform duration-300 hover:scale-105 text-center shadow-lg">Registro Público General</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSejAayaiYIFf6DLsFJBTgnqZGxWiqxDcnvas0CtzlG9gcVN2g/viewform?usp=header" target="_blank" class="px-4 py-3 bg-orange-600 hover:bg-orange-500 text-white rounded-xl font-bold transition-transform duration-300 hover:scale-105 text-center shadow-lg shadow-orange-500/20">Registro Alumnos</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSejAayaiYIFf6DLsFJBTgnqZGxWiqxDcnvas0CtzlG9gcVN2g/viewform?usp=header" target="_blank" class="px-4 py-3 bg-orange-600 hover:bg-orange-500 text-white rounded-xl font-bold transition-transform duration-300 hover:scale-105 text-center shadow-lg shadow-orange-500/20">Registro Alumnos Socios</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSejAayaiYIFf6DLsFJBTgnqZGxWiqxDcnvas0CtzlG9gcVN2g/viewform?usp=header" target="_blank" class="px-4 py-3 bg-[#111] hover:bg-black text-white rounded-xl font-bold transition-transform duration-300 hover:scale-105 text-center shadow-lg">Registro Socios AIMMGM</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSejAayaiYIFf6DLsFJBTgnqZGxWiqxDcnvas0CtzlG9gcVN2g/viewform?usp=header" target="_blank" class="px-4 py-3 bg-[#111] hover:bg-black text-white rounded-xl font-bold transition-transform duration-300 hover:scale-105 text-center shadow-lg">Registro Público General</a>
                     </div>
                 </div>
 
