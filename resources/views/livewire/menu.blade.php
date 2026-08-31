@@ -1,12 +1,12 @@
-<div class="w-full max-w-7xl px-2 sm:px-4 mx-auto lg:px-8">
-    <div class="flex flex-col lg:flex-row lg:items-center py-2 lg:py-3 gap-2 lg:gap-0">
+<div class="w-full max-w-5xl px-2 sm:px-4 mx-auto lg:px-8">
+    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between py-2 lg:py-3 gap-2 lg:gap-0">
         <!-- Logo -->
-        <a href="{{ route('evento.home') }}" class="flex-shrink-0 flex items-center justify-center lg:justify-start lg:mr-8">
+        <a href="{{ route('evento.home') }}" class="flex-shrink-0 flex items-center justify-center lg:justify-start">
             <img src="{{ asset('assets/logo.png') }}" alt="Logo" class="h-12 lg:h-14 w-auto object-contain">
         </a>
 
         <!-- Navegación scrollable -->
-        <nav class="flex items-center gap-1 overflow-x-auto whitespace-nowrap scrollbar-hide w-full pb-1 lg:pb-0">
+        <nav class="flex items-center justify-end gap-1 overflow-x-auto whitespace-nowrap scrollbar-hide w-full pb-1 lg:pb-0">
             <a href="{{ route('evento.home') }}" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300 font-medium">
                 <x-icon name="home" class="w-5 h-5" />
                 <span>Inicio</span>
