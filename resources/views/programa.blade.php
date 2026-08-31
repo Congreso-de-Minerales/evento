@@ -15,7 +15,10 @@
     <div class="flex flex-col items-center w-full px-4 lg:p-8 mt-24 flex-1">
         <div class="w-full h-[80vh] max-w-7xl relative group overflow-hidden rounded-2xl shadow-2xl shadow-orange-500/10 border border-white/5 bg-[#111] transition-all duration-500 hover:shadow-orange-500/20 p-2">
             <h1 class="text-4xl font-bold text-white mb-6 text-center">Programa</h1>
-            <iframe src="{{ asset('assets/Programa_Preeliminar ESPM XXII 2026  SLP-FINAL.pdf') }}" class="w-full h-[90%] rounded-xl border-none"></iframe>
+            @php
+                $pdfUrl = urlencode(asset('assets/Programa_Preeliminar ESPM XXII 2026  SLP-FINAL.pdf'));
+            @endphp
+            <iframe src="https://docs.google.com/viewer?url={{ $pdfUrl }}&embedded=true" class="w-full h-[90%] rounded-xl border-none"></iframe>
         </div>
     </div>
 
