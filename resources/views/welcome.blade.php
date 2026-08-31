@@ -2173,7 +2173,7 @@
     </header>
     <div
         class="flex items-center justify-center w-full px-4 lg:p-8 mt-20 transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
-        <main class="flex w-full max-w-full flex-col lg:flex-row items-center justify-center lg:max-w-[90rem] gap-8 mt-8">
+        <main class="flex w-full max-w-7xl mx-auto flex-col items-center justify-center gap-12 mt-8 px-4 lg:px-8 mb-12">
             <div class="relative group w-full overflow-hidden rounded-2xl shadow-2xl shadow-orange-500/10 border border-white/5 bg-black/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-orange-500/20">
                 <img src="{{ asset('assets/1.png') }}" alt="Encuentro Sobre Procesamiento de Minerales" class="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-105">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none"></div>
