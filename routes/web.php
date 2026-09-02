@@ -22,6 +22,9 @@ Route::prefix('evento')->name('evento.')->group(function () {
     
     // Ruta para Trabajos
     Route::get('/trabajos', fn () => view('livewire.trabajos'))->name('trabajos.index');
+
+    // Ruta para Cursos
+    Route::get('/cursos', fn () => view('cursos'))->name('cursos.index');
 });
 
 Route::middleware([

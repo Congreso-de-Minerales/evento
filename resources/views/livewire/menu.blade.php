@@ -36,6 +36,11 @@
             <x-icon name="document-text" class="w-5 h-5" />
             <span>Programa</span>
         </a>
+        <a href="{{ route('evento.cursos.index') }}"
+            class="inline-flex items-center gap-2 px-3 py-2 rounded-lg text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300 font-medium">
+            <x-icon name="book-open" class="w-5 h-5" />
+            <span>Cursos</span>
+        </a>
         <a href="{{ route('evento.cuotas.index') }}"
             class="inline-flex items-center gap-2 px-3 py-2 rounded-lg text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300 font-medium">
             <x-icon name="gift" class="w-5 h-5" />
