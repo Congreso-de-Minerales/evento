@@ -17,7 +17,7 @@
             <h1 class="text-4xl font-bold text-white mb-8 text-center">Nuestros Patrocinadores</h1>
             
             <div class="relative group w-full overflow-hidden rounded-2xl shadow-2xl shadow-orange-500/10 border border-white/5 bg-white p-8 transition-all duration-500 hover:-translate-y-1 hover:shadow-orange-500/20">
-                <img src="{{ asset('assets/patrocinadores.jpg') }}" alt="Patrocinadores" class="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-105">
+                <img src="{{ asset('assets/PATROCINADORES2.jpeg') }}" alt="Patrocinadores" class="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-105">
             </div>
         </div>
     </div>
